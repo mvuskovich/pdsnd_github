@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+The project was created in 11/01/2018
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project analyzes the first six months of bikeshare data for three cities, Washington, Chicago and New York. The data may be filtered by month, day or both.
 
 ### Files used
-Include the files used
+bikeshare.py
+washington.csv
+chicago.csv
+new_york_city.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+-Data Analysis 2nd edition,Oreily Press, by William McKinny
+-https://stackoverflow.com/questions/10797819/finding-the-mode-of-a-list (jabaldonedo)
+-https://www.geeksforgeeks.org/python-statistics-mode-function/
+-https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.tolist.html
+-http://introtopython.org/while_input.html
