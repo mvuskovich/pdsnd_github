@@ -5,7 +5,7 @@ The project was created in 11/01/2018
 Bikeshare Data
 
 ### Description
-This project analyzes the first six months of bikeshare data for three cities, Washington, Chicago and New York. The data may be filtered by month, day or both. The specific data includes information on length of time utilized, most popular dates used, usage by gender, by members and single time users.
+This project analyzes the first six months of bikeshare data for 2017, for three cities, Washington, Chicago and New York. The data may be filtered by month, day or both. The specific data includes information on length of time utilized, most popular dates used, usage by gender, by members and single time users.
 
 ### Files used
 bikeshare.py
