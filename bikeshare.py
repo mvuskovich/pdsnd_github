@@ -30,7 +30,7 @@ def month_to_int(mon):
 #variable receives a value of "". The city parameter will always be provided. Another option would have been to
 #create a column with text months, but this would have used more storage memory.
 
-def load_data(city,month, day):
+def load_city_data(city,month, day):
 
     print("city inside function is:" + city)
 
@@ -169,7 +169,7 @@ def time_select():
                 continue
 
             day=""
-            load_data(city, month, day)
+            load_city_data(city, month, day)
         elif time_selection == "day":
             day = input("Type day of the week: ").title()
 
@@ -178,16 +178,16 @@ def time_select():
                 continue
 
             month="None"
-            load_data(city, month, day)
+            load_city_data(city, month, day)
         elif time_selection == "both":
 
             if time_selection not in times:
                 invalidation_error()
                 continue
-        
+
             month = input("Type month: ").title()
             day = input("Type day: ").title()
-            load_data(city, month, day)
+            load_city_data(city, month, day)
         break
 
 #this function asks user if they would like continue to another city
